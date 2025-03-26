@@ -122,3 +122,25 @@ ul li a:hover{
 .icons ion-icon:hover{
     color: rgb(59,174,209);
 }
+.icons {
+    margin-top: 20px;
+}
+.icons a {
+    margin: 0 13px;
+    color: #007bff;
+    font-size: 24px;
+}
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar ul li {
+        margin: 5px 0;
+    }
+    .info h1 {
+        font-size: 1.5rem;
+    }
+    .info h3 {
+        font-size: 1rem;
+    }
