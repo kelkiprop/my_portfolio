@@ -6,21 +6,21 @@ body {
     text-align: center;
 }
 .container {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 50px auto;
     padding: 20px;
-    background: white;
+    background: darkslategray;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
 h1 {
-    color: darkslategray;
+    color:orangered;
 }
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 20px;
-    padding: 20px;
+    gap: 10px;
+    padding: 10px;
 }
 .skill {
     background: #fff;
@@ -37,7 +37,7 @@ h1 {
 .skill p {
     margin: 0;
     font-weight: bold;
-    color: #555;
+    color:orangered;
 }
 *{
     margin: 0;
@@ -78,12 +78,12 @@ ul li a{
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
-    color: darkslategray;
+    color: white;
     margin-top: -3%;
     transition: .4s ease;
 
 }
 
 ul li a:hover{
-    color: rgb(230,104,59);
+    color: orangered;
 }

@@ -15,10 +15,11 @@ body {
     font-family: sans-serif;
 }
 .container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 50px auto;
     padding: 20px;
-    background: white;
+    background: darkslategray;
+    color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     text-align: center;
@@ -47,21 +48,21 @@ ul li a{
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
-    color: darkslategray;
+    color: white;
     margin-top: -3%;
     transition: .4s ease;
 
 }
 
 ul li a:hover{
-    color: rgb(230,104,59);
+    color: orangered;
 }
 
 h1 {
-    color: darkslategrey;
+    color: orange;
 }
 p {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.6;
 }
 .skills {
